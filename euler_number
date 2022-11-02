@@ -1,2 +1,0 @@
-from manim import *
-from manim_slides import *
