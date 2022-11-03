@@ -1,0 +1,178 @@
+{
+  "slides": [
+    {
+      "type": "slide",
+      "start_animation": 0,
+      "end_animation": 1,
+      "number": 1,
+      "terminated": false
+    },
+    {
+      "type": "slide",
+      "start_animation": 1,
+      "end_animation": 3,
+      "number": 2,
+      "terminated": false
+    },
+    {
+      "type": "slide",
+      "start_animation": 3,
+      "end_animation": 5,
+      "number": 3,
+      "terminated": false
+    },
+    {
+      "type": "slide",
+      "start_animation": 5,
+      "end_animation": 8,
+      "number": 4,
+      "terminated": false
+    },
+    {
+      "type": "slide",
+      "start_animation": 8,
+      "end_animation": 10,
+      "number": 5,
+      "terminated": false
+    },
+    {
+      "type": "slide",
+      "start_animation": 10,
+      "end_animation": 13,
+      "number": 6,
+      "terminated": false
+    },
+    {
+      "type": "slide",
+      "start_animation": 13,
+      "end_animation": 15,
+      "number": 7,
+      "terminated": false
+    },
+    {
+      "type": "slide",
+      "start_animation": 15,
+      "end_animation": 17,
+      "number": 8,
+      "terminated": false
+    },
+    {
+      "type": "slide",
+      "start_animation": 17,
+      "end_animation": 20,
+      "number": 9,
+      "terminated": false
+    },
+    {
+      "type": "slide",
+      "start_animation": 20,
+      "end_animation": 22,
+      "number": 10,
+      "terminated": false
+    },
+    {
+      "type": "slide",
+      "start_animation": 22,
+      "end_animation": 24,
+      "number": 11,
+      "terminated": false
+    },
+    {
+      "type": "slide",
+      "start_animation": 24,
+      "end_animation": 26,
+      "number": 12,
+      "terminated": false
+    },
+    {
+      "type": "slide",
+      "start_animation": 26,
+      "end_animation": 28,
+      "number": 13,
+      "terminated": false
+    },
+    {
+      "type": "slide",
+      "start_animation": 28,
+      "end_animation": 30,
+      "number": 14,
+      "terminated": false
+    },
+    {
+      "type": "slide",
+      "start_animation": 30,
+      "end_animation": 32,
+      "number": 15,
+      "terminated": false
+    },
+    {
+      "type": "slide",
+      "start_animation": 32,
+      "end_animation": 34,
+      "number": 16,
+      "terminated": false
+    },
+    {
+      "type": "slide",
+      "start_animation": 34,
+      "end_animation": 36,
+      "number": 17,
+      "terminated": false
+    },
+    {
+      "type": "slide",
+      "start_animation": 36,
+      "end_animation": 37,
+      "number": 18,
+      "terminated": false
+    },
+    {
+      "type": "slide",
+      "start_animation": 37,
+      "end_animation": 38,
+      "number": 19,
+      "terminated": false
+    }
+  ],
+  "files": [
+    "./slides\\files\\Problem\\450974505_2404853794_223132457.mp4",
+    "./slides\\files\\Problem\\34786186_3227090090_1685528514.mp4",
+    "./slides\\files\\Problem\\34786186_1441947435_223132457.mp4",
+    "./slides\\files\\Problem\\34786186_3684239548_2939790816.mp4",
+    "./slides\\files\\Problem\\34786186_2073550465_223132457.mp4",
+    "./slides\\files\\Problem\\34786186_2325711482_3362834651.mp4",
+    "./slides\\files\\Problem\\34786186_106765880_223132457.mp4",
+    "./slides\\files\\Problem\\34786186_2872980148_4106731929.mp4",
+    "./slides\\files\\Problem\\34786186_1645566778_1734465410.mp4",
+    "./slides\\files\\Problem\\34786186_1651773756_223132457.mp4",
+    "./slides\\files\\Problem\\34786186_2474395079_3362834651.mp4",
+    "./slides\\files\\Problem\\34786186_1414813844_223132457.mp4",
+    "./slides\\files\\Problem\\34786186_3517189319_827356862.mp4",
+    "./slides\\files\\Problem\\34786186_519971616_1835890735.mp4",
+    "./slides\\files\\Problem\\34786186_3029954734_223132457.mp4",
+    "./slides\\files\\Problem\\34786186_263959532_610803931.mp4",
+    "./slides\\files\\Problem\\34786186_4067030162_223132457.mp4",
+    "./slides\\files\\Problem\\34786186_56729705_3362834651.mp4",
+    "./slides\\files\\Problem\\34786186_3766988062_223132457.mp4",
+    "./slides\\files\\Problem\\34786186_2872980148_1347777778.mp4",
+    "./slides\\files\\Problem\\34786186_1347029694_353633971.mp4",
+    "./slides\\files\\Problem\\34786186_3237723638_223132457.mp4",
+    "./slides\\files\\Problem\\34786186_838068493_3362834651.mp4",
+    "./slides\\files\\Problem\\34786186_4240621112_223132457.mp4",
+    "./slides\\files\\Problem\\34786186_741937382_2044097873.mp4",
+    "./slides\\files\\Problem\\34786186_899781928_223132457.mp4",
+    "./slides\\files\\Problem\\34786186_1394910014_2887034678.mp4",
+    "./slides\\files\\Problem\\34786186_2181617797_223132457.mp4",
+    "./slides\\files\\Problem\\34786186_1929415806_3362834651.mp4",
+    "./slides\\files\\Problem\\34786186_380009928_223132457.mp4",
+    "./slides\\files\\Problem\\34786186_3972163740_1843929563.mp4",
+    "./slides\\files\\Problem\\34786186_4063106409_223132457.mp4",
+    "./slides\\files\\Problem\\34786186_3588683115_532016837.mp4",
+    "./slides\\files\\Problem\\34786186_3989036508_223132457.mp4",
+    "./slides\\files\\Problem\\34786186_483100967_3362834651.mp4",
+    "./slides\\files\\Problem\\34786186_3989646124_223132457.mp4",
+    "./slides\\files\\Problem\\34786186_337571155_3061440593.mp4",
+    "./slides\\files\\Problem\\34786186_329969645_631829896.mp4",
+    "./slides\\files\\Problem\\34786186_329969645_3547520947.mp4"
+  ]
+}

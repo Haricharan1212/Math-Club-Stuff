@@ -1,0 +1,120 @@
+{
+  "slides": [
+    {
+      "type": "slide",
+      "start_animation": 0,
+      "end_animation": 1,
+      "number": 1,
+      "terminated": false
+    },
+    {
+      "type": "slide",
+      "start_animation": 1,
+      "end_animation": 3,
+      "number": 2,
+      "terminated": false
+    },
+    {
+      "type": "slide",
+      "start_animation": 3,
+      "end_animation": 4,
+      "number": 3,
+      "terminated": false
+    },
+    {
+      "type": "slide",
+      "start_animation": 4,
+      "end_animation": 6,
+      "number": 4,
+      "terminated": false
+    },
+    {
+      "type": "slide",
+      "start_animation": 6,
+      "end_animation": 8,
+      "number": 5,
+      "terminated": false
+    },
+    {
+      "type": "slide",
+      "start_animation": 8,
+      "end_animation": 11,
+      "number": 6,
+      "terminated": false
+    },
+    {
+      "type": "slide",
+      "start_animation": 11,
+      "end_animation": 13,
+      "number": 7,
+      "terminated": false
+    },
+    {
+      "type": "slide",
+      "start_animation": 13,
+      "end_animation": 15,
+      "number": 8,
+      "terminated": false
+    },
+    {
+      "type": "slide",
+      "start_animation": 15,
+      "end_animation": 16,
+      "number": 9,
+      "terminated": false
+    },
+    {
+      "type": "slide",
+      "start_animation": 16,
+      "end_animation": 18,
+      "number": 10,
+      "terminated": false
+    },
+    {
+      "type": "slide",
+      "start_animation": 18,
+      "end_animation": 20,
+      "number": 11,
+      "terminated": false
+    },
+    {
+      "type": "slide",
+      "start_animation": 20,
+      "end_animation": 21,
+      "number": 12,
+      "terminated": false
+    },
+    {
+      "type": "slide",
+      "start_animation": 21,
+      "end_animation": 22,
+      "number": 13,
+      "terminated": false
+    }
+  ],
+  "files": [
+    "./slides\\files\\Bridges\\450974505_1866703177_223132457.mp4",
+    "./slides\\files\\Bridges\\34786186_2712436249_297790661.mp4",
+    "./slides\\files\\Bridges\\34786186_4031850809_223132457.mp4",
+    "./slides\\files\\Bridges\\34786186_3589468931_1973652422.mp4",
+    "./slides\\files\\Bridges\\34786186_2358420384_3082538528.mp4",
+    "./slides\\files\\Bridges\\34786186_760354875_1368268533.mp4",
+    "./slides\\files\\Bridges\\34786186_125286499_3129217767.mp4",
+    "./slides\\files\\Bridges\\34786186_2271639140_2917877347.mp4",
+    "./slides\\files\\Bridges\\34786186_125286499_2307310669.mp4",
+    "./slides\\files\\Bridges\\34786186_2762879356_4120326355.mp4",
+    "./slides\\files\\Bridges\\34786186_766641147_223132457.mp4",
+    "./slides\\files\\Bridges\\34786186_579619834_4085549437.mp4",
+    "./slides\\files\\Bridges\\34786186_6088181_223132457.mp4",
+    "./slides\\files\\Bridges\\34786186_2857293224_283540805.mp4",
+    "./slides\\files\\Bridges\\34786186_1334264270_223132457.mp4",
+    "./slides\\files\\Bridges\\34786186_2494561004_1985545059.mp4",
+    "./slides\\files\\Bridges\\34786186_3247060139_1628470482.mp4",
+    "./slides\\files\\Bridges\\34786186_2672778773_223132457.mp4",
+    "./slides\\files\\Bridges\\34786186_4090369249_4207468689.mp4",
+    "./slides\\files\\Bridges\\34786186_1537857473_223132457.mp4",
+    "./slides\\files\\Bridges\\34786186_1853862858_3387849211.mp4",
+    "./slides\\files\\Bridges\\34786186_329969645_631829896.mp4",
+    "./slides\\files\\Bridges\\34786186_329969645_3547520947.mp4"
+  ]
+}
