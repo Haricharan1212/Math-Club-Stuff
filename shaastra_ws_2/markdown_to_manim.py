@@ -20,21 +20,21 @@ class {filename[:-3]}(Slide):
         content = [i.strip() for i in slide.split('\n') if i.strip() != '']
         shift = len(content)
 
-        assert shift <= 8, 'There should be less than 8 lines in the slide' 
+        # assert shift <= 8, 'There should be less than 8 lines in the slide' 
 
         array = linspace(3, -3, num = shift)
 
-        if (content[0][0] == '%'):
+    #     if (content[0][0] == '%'):
 
-            out += f'''
-        obj = SVGMobject("{content[0][1:]}")
-        self.play(FadeIn(obj), run_time = 3)
-        self.pause()
-        text = text("{content[1]}").shift(3 * DOWN)
-        self.play(Write(text), run_time = 2)
-        self.pause()        
-    '''
-            continue
+    #         out += f'''
+    #     obj = SVGMobject("{content[0][1:]}")
+    #     self.play(FadeIn(obj), run_time = 3)
+    #     self.pause()
+    #     text = text("{content[1]}").shift(3 * DOWN)
+    #     self.play(Write(text), run_time = 2)
+    #     self.pause()        
+    # '''
+    #         continue
 
         for i in (range(shift)):
 
@@ -70,9 +70,18 @@ class {filename[:-3]}(Slide):
         self.play(*[FadeOut(mob)for mob in self.mobjects], run_time = 3)
         self.pause()
 
+        self.wait()
+        self.pause()
+
+        self.wait()
+        self.pause()
+
+        self.wait()
+        self.pause()
+
             '''
 
     with open (filename[:-3] + '.py', 'w') as f:
         f.write(out)
 
-markdown_to_manim("galois_theory.md")
+markdown_to_manim("galois_theory_2.md")
