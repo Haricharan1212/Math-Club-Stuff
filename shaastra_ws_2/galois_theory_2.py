@@ -615,7 +615,7 @@ class galois_theory_2(Slide):
         self.play(Write(text), run_time = 2)
         self.pause()
         
-        text = Tex(r"$\to \{ \text{subfields of} \} K$", color = WHITE).shift(-0.4285714285714284 * UP).scale(1.0)
+        text = Tex(r"$\to \{ \text{subfields of K} \}$", color = WHITE).shift(-0.4285714285714284 * UP).scale(1.0)
         self.play(Write(text), run_time = 2)
         self.pause()
         
@@ -722,19 +722,18 @@ class galois_theory_2(Slide):
         self.play(*[FadeOut(mob)for mob in self.mobjects], run_time = 3)
         self.pause()
 
-            
-        text = Tex(r"Add Inclusion diagram", color = GREEN).shift(3.0 * UP).scale(1.8)
+
+        text = Tex(r"4. Inclusion Diagram", color = BLUE).shift(3.0 * UP).scale(1.2)
         self.play(Write(text), run_time = 2)
         self.pause()
         
-        text = Tex(r"Big image", color = GREEN).shift(-3.0 * UP).scale(1.8)
-        self.play(Write(text), run_time = 2)
-        self.pause()
-        
+        img = ImageMobject("inclusion_diagram").shift(0.5 * DOWN).scale(0.8)
+
+        self.play(FadeIn(img))
+        self.pause()  
 
         self.play(*[FadeOut(mob)for mob in self.mobjects], run_time = 3)
         self.pause()
-
             
         text = Tex(r"6. Some observations", color = BLUE).shift(3.0 * UP).scale(1.2)
         self.play(Write(text), run_time = 2)
@@ -943,9 +942,6 @@ class galois_theory_2(Slide):
 
         self.play(*[FadeOut(mob)for mob in self.mobjects], run_time = 3)
         self.pause()
-
-        self.play(*[FadeOut(mob)for mob in self.mobjects], run_time = 3)
-        self.pause()
             
         text = Tex(r"Theorem 4", color = ORANGE).shift(3.0 * UP).scale(1.4)
         self.play(Write(text), run_time = 2)
@@ -959,7 +955,7 @@ class galois_theory_2(Slide):
         self.play(Write(text), run_time = 2)
         self.pause()
         
-        text = Tex(r"Note that $$x_j, y_j$$ must", color = WHITE).shift(0.4285714285714288 * UP).scale(1.0)
+        text = Tex(r"Note that $x_j, y_j$ must", color = WHITE).shift(0.4285714285714288 * UP).scale(1.0)
         self.play(Write(text), run_time = 2)
         self.pause()
         
@@ -1375,4 +1371,11 @@ class galois_theory_2(Slide):
         self.play(*[FadeOut(mob)for mob in self.mobjects], run_time = 3)
         self.pause()
 
-            
+        self.wait()
+        self.pause()
+
+        self.wait()
+        self.pause()
+
+        self.wait()
+        self.pause()

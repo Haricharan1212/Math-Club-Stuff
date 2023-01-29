@@ -71,7 +71,7 @@ class galois_theory(Slide):
         self.play(Write(text), run_time = 2)
         self.pause()
         
-        text = Tex(r"But be assured that they have", color = WHITE).shift(-1.7999999999999998 * UP).scale(1.0)
+        text = Tex(r"But be assured that it has", color = WHITE).shift(-1.7999999999999998 * UP).scale(1.0)
         self.play(Write(text), run_time = 2)
         self.pause()
         
@@ -241,32 +241,27 @@ class galois_theory(Slide):
         self.pause()
 
             
-        text = Tex(r"Vector space", color = GREEN).shift(3.0 * UP).scale(1.8)
-        self.play(Write(text), run_time = 2)
-        self.pause()
-        
-
-        self.play(*[FadeOut(mob)for mob in self.mobjects], run_time = 3)
-        self.pause()
-
-            
         text = Tex(r"1", color = BLACK).shift(3.0 * UP).scale(1.8)
         self.play(Write(text), run_time = 2)
         self.pause()
         
-        text = Tex(r"Reading Assignment", color = ORANGE).shift(1.5 * UP).scale(1.4)
+        text = Tex(r"Reading Assignment", color = ORANGE).shift(1.8 * UP).scale(1.4)
         self.play(Write(text), run_time = 2)
         self.pause()
         
-        text = Tex(r"1", color = BLACK).shift(0.0 * UP).scale(1.8)
+        text = Tex(r"1", color = BLACK).shift(0.6000000000000001 * UP).scale(1.8)
         self.play(Write(text), run_time = 2)
         self.pause()
         
-        text = Tex(r"Intuition and Applications", color = WHITE).shift(-1.5 * UP).scale(1.0)
+        text = Tex(r"Intuition and Applications", color = WHITE).shift(-0.5999999999999996 * UP).scale(1.0)
         self.play(Write(text), run_time = 2)
         self.pause()
         
-        text = Tex(r"of Category Theory", color = WHITE).shift(-3.0 * UP).scale(1.0)
+        text = Tex(r"of Category Theory", color = WHITE).shift(-1.7999999999999998 * UP).scale(1.0)
+        self.play(Write(text), run_time = 2)
+        self.pause()
+        
+        text = Tex(r"1", color = BLACK).shift(-3.0 * UP).scale(1.8)
         self.play(Write(text), run_time = 2)
         self.pause()
         
@@ -349,7 +344,7 @@ class galois_theory(Slide):
         self.play(Write(text), run_time = 2)
         self.pause()
         
-        text = Tex(r"- The operation is associative", color = WHITE).shift(-0.5999999999999996 * UP).scale(1.0)
+        text = Tex(r"- It is associative $(a \odot b) \odot c = a \odot (b \odot c)$", color = WHITE).shift(-0.5999999999999996 * UP).scale(1.0)
         self.play(Write(text), run_time = 2)
         self.pause()
         
@@ -357,7 +352,7 @@ class galois_theory(Slide):
         self.play(Write(text), run_time = 2)
         self.pause()
         
-        text = Tex(r"- $\forall a \exists a^{-1} : a a^{-1} = e$", color = WHITE).shift(-3.0 * UP).scale(1.0)
+        text = Tex(r"- Inverse existence: $\forall a \exists a^{-1} : a a^{-1} = e$", color = WHITE).shift(-3.0 * UP).scale(1.0)
         self.play(Write(text), run_time = 2)
         self.pause()
         
@@ -370,35 +365,31 @@ class galois_theory(Slide):
         self.play(Write(text), run_time = 2)
         self.pause()
         
-        text = Tex(r"$\{ 1, w, w^2 \}$ under $\times$", color = WHITE).shift(2.25 * UP).scale(1.0)
+        text = Tex(r"$\{ 1, w, w^2 \}$ under $\times$", color = WHITE).shift(2.142857142857143 * UP).scale(1.0)
         self.play(Write(text), run_time = 2)
         self.pause()
         
-        text = Tex(r"- It is closed (by observation)", color = WHITE).shift(1.5 * UP).scale(1.0)
+        text = Tex(r"- It is closed (by observation)", color = WHITE).shift(1.2857142857142858 * UP).scale(1.0)
         self.play(Write(text), run_time = 2)
         self.pause()
         
-        text = Tex(r"- It is associative (by associativity", color = WHITE).shift(0.75 * UP).scale(1.0)
+        text = Tex(r"- It is associative (by associativity", color = WHITE).shift(0.4285714285714288 * UP).scale(1.0)
         self.play(Write(text), run_time = 2)
         self.pause()
         
-        text = Tex(r"of multiplication of complex numbers)", color = WHITE).shift(0.0 * UP).scale(1.0)
+        text = Tex(r"of multiplication of complex numbers)", color = WHITE).shift(-0.4285714285714284 * UP).scale(1.0)
         self.play(Write(text), run_time = 2)
         self.pause()
         
-        text = Tex(r"- There exists a multiplicative identity", color = WHITE).shift(-0.75 * UP).scale(1.0)
+        text = Tex(r"- There exists a multiplicative identity $1$", color = WHITE).shift(-1.2857142857142856 * UP).scale(1.0)
         self.play(Write(text), run_time = 2)
         self.pause()
         
-        text = Tex(r"$1$", color = WHITE).shift(-1.5 * UP).scale(1.0)
+        text = Tex(r"- There exists a multiplicative inverse", color = WHITE).shift(-2.1428571428571423 * UP).scale(1.0)
         self.play(Write(text), run_time = 2)
         self.pause()
         
-        text = Tex(r"- There exists a multiplicative inverse", color = WHITE).shift(-2.25 * UP).scale(1.0)
-        self.play(Write(text), run_time = 2)
-        self.pause()
-        
-        text = Tex(r"$1^{-1} = 1$, $w^{-1} = w^2$", color = WHITE).shift(-3.0 * UP).scale(1.0)
+        text = Tex(r"$1^{-1} = 1$, $w^{-1} = w^2, (w^2)^{-1} = w$", color = WHITE).shift(-3.0 * UP).scale(1.0)
         self.play(Write(text), run_time = 2)
         self.pause()
         
@@ -411,15 +402,31 @@ class galois_theory(Slide):
         self.play(Write(text), run_time = 2)
         self.pause()
         
-        text = Tex(r"Groups which are commutative", color = WHITE).shift(1.0 * UP).scale(1.0)
+        text = Tex(r"1", color = BLACK).shift(2.142857142857143 * UP).scale(1.8)
         self.play(Write(text), run_time = 2)
         self.pause()
         
-        text = Tex(r"are called Abelian Groups", color = WHITE).shift(-1.0 * UP).scale(1.0)
+        text = Tex(r"1", color = BLACK).shift(1.2857142857142858 * UP).scale(1.8)
         self.play(Write(text), run_time = 2)
         self.pause()
         
-        text = Tex(r"Eg. $(\mathbb{Z}, +), (\mathbb{R}, +)$", color = WHITE).shift(-3.0 * UP).scale(1.0)
+        text = Tex(r"Groups which are commutative", color = WHITE).shift(0.4285714285714288 * UP).scale(1.0)
+        self.play(Write(text), run_time = 2)
+        self.pause()
+        
+        text = Tex(r"are called Abelian Groups", color = WHITE).shift(-0.4285714285714284 * UP).scale(1.0)
+        self.play(Write(text), run_time = 2)
+        self.pause()
+        
+        text = Tex(r"1", color = BLACK).shift(-1.2857142857142856 * UP).scale(1.8)
+        self.play(Write(text), run_time = 2)
+        self.pause()
+        
+        text = Tex(r"Eg. $(\mathbb{Z}, +), (\mathbb{R}, +)$", color = WHITE).shift(-2.1428571428571423 * UP).scale(1.0)
+        self.play(Write(text), run_time = 2)
+        self.pause()
+        
+        text = Tex(r"1", color = BLACK).shift(-3.0 * UP).scale(1.8)
         self.play(Write(text), run_time = 2)
         self.pause()
         
@@ -448,7 +455,7 @@ class galois_theory(Slide):
         self.play(Write(text), run_time = 2)
         self.pause()
         
-        text = Tex(r"- Inverse exits for all non-zero elements", color = WHITE).shift(-1.2857142857142856 * UP).scale(1.0)
+        text = Tex(r"- Inverse exists for all non-zero elements", color = WHITE).shift(-1.2857142857142856 * UP).scale(1.0)
         self.play(Write(text), run_time = 2)
         self.pause()
         
@@ -526,11 +533,11 @@ class galois_theory(Slide):
         self.play(Write(text), run_time = 2)
         self.pause()
         
-        text = Tex(r"Eg. $\mathbb{R}_+$ is a subgroup", color = WHITE).shift(-2.0 * UP).scale(1.0)
+        text = Tex(r"Eg. $\mathbb{R}^+$ is a subgroup", color = WHITE).shift(-2.0 * UP).scale(1.0)
         self.play(Write(text), run_time = 2)
         self.pause()
         
-        text = Tex(r"of $\mathbb{R}^*$", color = WHITE).shift(-3.0 * UP).scale(1.0)
+        text = Tex(r"of $\mathbb{R}^*$ under $*$", color = WHITE).shift(-3.0 * UP).scale(1.0)
         self.play(Write(text), run_time = 2)
         self.pause()
         
@@ -555,7 +562,7 @@ class galois_theory(Slide):
         self.play(Write(text), run_time = 2)
         self.pause()
         
-        text = Tex(r"$\{e, r, r^2\}$", color = WHITE).shift(-1.7999999999999998 * UP).scale(1.0)
+        text = Tex(r"$\{e, r, b^2\}$", color = WHITE).shift(-1.7999999999999998 * UP).scale(1.0)
         self.play(Write(text), run_time = 2)
         self.pause()
         
@@ -567,7 +574,37 @@ class galois_theory(Slide):
         self.play(*[FadeOut(mob)for mob in self.mobjects], run_time = 3)
         self.pause()
 
-            
+
+
+        text = Tex(r"Cosets", color = BLUE).shift(3.0 * UP).scale(1.2)
+        self.play(Write(text), run_time = 2)
+        self.pause()
+        
+        text = Tex(r"For a subgroup H, a left", color = WHITE).shift(1.8 * UP).scale(1.0)
+        self.play(Write(text), run_time = 2)
+        self.pause()
+        
+        text = Tex(r"coset is $aH = \{a h : h \in G \}$", color = WHITE).shift(0.6000000000000001 * UP).scale(1.0)
+        self.play(Write(text), run_time = 2)
+        self.pause()
+        
+        text = Tex(r"For a subgroup H, a right", color = WHITE).shift(-0.5999999999999996 * UP).scale(1.0)
+        self.play(Write(text), run_time = 2)
+        self.pause()
+        
+        text = Tex(r"coset is $Ha = \{ha : h \in G \}$", color = WHITE).shift(-1.7999999999999998 * UP).scale(1.0)
+        self.play(Write(text), run_time = 2)
+        self.pause()
+        
+        text = Tex(r"Note that $aH \ne Ha$ in general", color = WHITE).shift(-3.0 * UP).scale(1.0)
+        self.play(Write(text), run_time = 2)
+        self.pause()
+        
+
+        self.play(*[FadeOut(mob)for mob in self.mobjects], run_time = 3)
+        self.pause()
+
+
         text = Tex(r"Cosets of $\{1, b, b^2 \}$", color = BLUE).shift(3.0 * UP).scale(1.2)
         self.play(Write(text), run_time = 2)
         self.pause()
@@ -575,7 +612,7 @@ class galois_theory(Slide):
         img = ImageMobject("D6_cosets").shift(0.5 * DOWN).scale(0.8)
 
         self.play(FadeIn(img))
-        self.pause()        
+        self.pause()  
         
         self.play(*[FadeOut(mob)for mob in self.mobjects], run_time = 3)
         self.pause()
@@ -602,7 +639,7 @@ class galois_theory(Slide):
         self.pause()  
 
         self.play(*[FadeOut(mob)for mob in self.mobjects], run_time = 3)
-        self.pause()
+        self.pause()    
 
         text = Tex(r"Normal subgroup", color = BLUE).shift(3.0 * UP).scale(1.2)
         self.play(Write(text), run_time = 2)
@@ -620,7 +657,7 @@ class galois_theory(Slide):
         self.play(Write(text), run_time = 2)
         self.pause()
         
-        text = Tex(r"For $D_6$, $\{e\}$, $\{e, r, r^2\}$,", color = WHITE).shift(-1.0 * UP).scale(1.0)
+        text = Tex(r"For $D_6$, $\{e\}$, $\{e, b, b^2\}$,", color = WHITE).shift(-1.0 * UP).scale(1.0)
         self.play(Write(text), run_time = 2)
         self.pause()
         
@@ -752,11 +789,11 @@ class galois_theory(Slide):
         self.play(Write(text), run_time = 2)
         self.pause()
         
-        text = Tex(r"Consider $C_2 \triangleleft C_6$.", color = WHITE).shift(-0.4285714285714284 * UP).scale(1.0)
+        text = Tex(r"Consider $C_3 \triangleleft D_6$.", color = WHITE).shift(-0.4285714285714284 * UP).scale(1.0)
         self.play(Write(text), run_time = 2)
         self.pause()
         
-        text = Tex(r"$C_6 / C_2 = \{ \{0, 3\}, \{1, 4\}, \{2, 5\} \}$", color = WHITE).shift(-1.2857142857142856 * UP).scale(1.0)
+        text = Tex(r"$D_6 / C_3 = \{ \{1, b, b^2\}, \{a, ab, ab^2\}\}$", color = WHITE).shift(-1.2857142857142856 * UP).scale(1.0)
         self.play(Write(text), run_time = 2)
         self.pause()
         
@@ -764,7 +801,7 @@ class galois_theory(Slide):
         self.play(Write(text), run_time = 2)
         self.pause()
         
-        text = Tex(r"has the same structure as $C_3$", color = WHITE).shift(-3.0 * UP).scale(1.0)
+        text = Tex(r"has the same structure as $C_2$", color = WHITE).shift(-3.0 * UP).scale(1.0)
         self.play(Write(text), run_time = 2)
         self.pause()
         
@@ -798,7 +835,7 @@ class galois_theory(Slide):
         self.pause()
 
             
-        text = Tex(r"Do we have time?", color = BLUE).shift(3.0 * UP).scale(1.2)
+        text = Tex(r"Refer notes for explanation", color = BLUE).shift(3.0 * UP).scale(1.2)
         self.play(Write(text), run_time = 2)
         self.pause()
         
@@ -1050,7 +1087,7 @@ class galois_theory(Slide):
         self.play(Write(text), run_time = 2)
         self.pause()
         
-        text = Tex(r"For a polynomial $f \in \mathbb{R}[t]$,", color = WHITE).shift(2.0 * UP).scale(1.0)
+        text = Tex(r"For a polynomial $f \in R [t]$,", color = WHITE).shift(2.0 * UP).scale(1.0)
         self.play(Write(text), run_time = 2)
         self.pause()
         
@@ -1066,11 +1103,11 @@ class galois_theory(Slide):
         self.play(Write(text), run_time = 2)
         self.pause()
         
-        text = Tex(r"$\sqrt 2 i $ is a zero of $t^2 + 2i \in C[t]$", color = WHITE).shift(-2.0 * UP).scale(1.0)
+        text = Tex(r"$\sqrt 2 i $ is a zero of $t^2 + 2i \in \mathbb C[t]$", color = WHITE).shift(-2.0 * UP).scale(1.0)
         self.play(Write(text), run_time = 2)
         self.pause()
         
-        text = Tex(r"$-\sqrt 2 i $ is a zero of $t^2 + 2i \in C[t]$", color = WHITE).shift(-3.0 * UP).scale(1.0)
+        text = Tex(r"$-\sqrt 2 i $ is a zero of $t^2 + 2i \in \mathbb C[t]$", color = WHITE).shift(-3.0 * UP).scale(1.0)
         self.play(Write(text), run_time = 2)
         self.pause()
         
@@ -1128,7 +1165,7 @@ class galois_theory(Slide):
         self.play(Write(text), run_time = 2)
         self.pause()
         
-        text = Tex(r"$\mathbb a + b\sqrt{2}, a, b \in \mathbb Q$ is a field", color = WHITE).shift(-3.0 * UP).scale(1.0)
+        text = Tex(r"$a + b\sqrt{2}, a, b \in \mathbb Q$ is a field", color = WHITE).shift(-3.0 * UP).scale(1.0)
         self.play(Write(text), run_time = 2)
         self.pause()
         
@@ -1141,7 +1178,7 @@ class galois_theory(Slide):
         self.play(Write(text), run_time = 2)
         self.pause()
         
-        text = Tex(r"Consider the polynomial $f = t^2 - \sqrt 2 \in \mathbb Q [t]$", color = WHITE).shift(2.0 * UP).scale(1.0)
+        text = Tex(r"Consider the polynomial $f = t^2 - 2 \in \mathbb Q [t]$", color = WHITE).shift(2.0 * UP).scale(1.0)
         self.play(Write(text), run_time = 2)
         self.pause()
         
@@ -1240,6 +1277,43 @@ class galois_theory(Slide):
         self.pause()
 
             
+        text = Tex(r"Vector space", color = GREEN).shift(3.0 * UP).scale(1.8)
+        self.play(Write(text), run_time = 2)
+        self.pause()
+        
+        text = Tex(r"$V$ is a set over a field $K$", color = WHITE).shift(2.142857142857143 * UP).scale(1.0)
+        self.play(Write(text), run_time = 2)
+        self.pause()
+        
+        text = Tex(r"Abelian Group over addition, i.e. closure,", color = WHITE).shift(1.2857142857142858 * UP).scale(1.0)
+        self.play(Write(text), run_time = 2)
+        self.pause()
+        
+        text = Tex(r"associativity, identity, inverse, commutativity", color = WHITE).shift(0.4285714285714288 * UP).scale(1.0)
+        self.play(Write(text), run_time = 2)
+        self.pause()
+        
+        text = Tex(r"Compatibility of scalar and field", color = WHITE).shift(-0.4285714285714284 * UP).scale(1.0)
+        self.play(Write(text), run_time = 2)
+        self.pause()
+        
+        text = Tex(r"multiplication $a (b \vec c) = (ab) \vec c, a, b \in K, \vec c \in V$", color = WHITE).shift(-1.2857142857142856 * UP).scale(1.0)
+        self.play(Write(text), run_time = 2)
+        self.pause()
+        
+        text = Tex(r"Scalar identity = 1", color = WHITE).shift(-2.1428571428571423 * UP).scale(1.0)
+        self.play(Write(text), run_time = 2)
+        self.pause()
+        
+        text = Tex(r"Distributive laws", color = WHITE).shift(-3.0 * UP).scale(1.0)
+        self.play(Write(text), run_time = 2)
+        self.pause()
+        
+
+        self.play(*[FadeOut(mob)for mob in self.mobjects], run_time = 3)
+        self.pause()
+
+            
         text = Tex(r"Field extension as a vector space", color = BLUE).shift(3.0 * UP).scale(1.2)
         self.play(Write(text), run_time = 2)
         self.pause()
@@ -1248,7 +1322,7 @@ class galois_theory(Slide):
         self.play(Write(text), run_time = 2)
         self.pause()
         
-        text = Tex(r"This consists of $w = a + \sqrt b, a, b, \in \mathbb Q$", color = WHITE).shift(1.2857142857142858 * UP).scale(1.0)
+        text = Tex(r"This consists of $w = a + \sqrt 2 b, a, b, \in \mathbb Q$", color = WHITE).shift(1.2857142857142858 * UP).scale(1.0)
         self.play(Write(text), run_time = 2)
         self.pause()
         
@@ -1330,7 +1404,7 @@ class galois_theory(Slide):
         self.play(Write(text), run_time = 2)
         self.pause()
         
-        text = Tex(r"$\sum_j (\sum_i k_{ij} x_i) y_j = 0 \implies \sum_{k_{ij} x_i} = 0$", color = WHITE).shift(-0.5999999999999996 * UP).scale(1.0)
+        text = Tex(r"$\sum_j (\sum_i k_{ij} x_i) y_j = 0 \implies \sum_i {k_{ij} x_i} = 0$", color = WHITE).shift(-0.5999999999999996 * UP).scale(1.0)
         self.play(Write(text), run_time = 2)
         self.pause()
         
@@ -1338,7 +1412,7 @@ class galois_theory(Slide):
         self.play(Write(text), run_time = 2)
         self.pause()
         
-        text = Tex(r"$\sum_{k_{ij} x_i} = 0 \implies k_{ij} = 0 \forall j$", color = WHITE).shift(-3.0 * UP).scale(1.0)
+        text = Tex(r"$\sum_i {k_{ij} x_i} = 0 \implies k_{ij} = 0 \forall i, j$", color = WHITE).shift(-3.0 * UP).scale(1.0)
         self.play(Write(text), run_time = 2)
         self.pause()
         
@@ -1347,7 +1421,7 @@ class galois_theory(Slide):
         self.pause()
 
             
-        text = Tex(r"Spanning", color = ORANGE).shift(3.0 * UP).scale(1.4)
+        text = Tex(r"Spanning", color = BLUE).shift(3.0 * UP).scale(1.2)
         self.play(Write(text), run_time = 2)
         self.pause()
         
@@ -1444,10 +1518,18 @@ class galois_theory(Slide):
         text = Tex(r"$\mathbb R$ is a subfield of $\mathbb C$", color = WHITE).shift(-3.0 * UP).scale(1.0)
         self.play(Write(text), run_time = 2)
         self.pause()
-                    
+        
 
         self.play(*[FadeOut(mob)for mob in self.mobjects], run_time = 3)
         self.pause()
 
-
             
+        self.wait()
+        self.pause()
+
+        self.wait()
+        self.pause()
+
+        self.wait()
+        self.pause()
+

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.8) (preloaded format=latex 2022.8.21)  24 JAN 2023 16:35
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.8) (preloaded format=latex 2022.8.21)  25 JAN 2023 22:17
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -164,7 +164,8 @@ File: l3backend-dvips.def 2022-08-05 L3 backend support: dvips
 \g__pdf_backend_link_int=\count279
 \g__pdf_backend_link_sf_int=\count280
 )
-No file 8a4f75c4b0618319.aux.
+(C:\Users\haric\OneDrive\Desktop\Files\Code\Manim\MathClub\shaastra_ws_2\media\
+Tex\8a4f75c4b0618319.aux)
 \openout1 = `8a4f75c4b0618319.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 7.
@@ -196,8 +197,8 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 l.10 For $N \lefttriangle
                           G$, consider 
 Here is how much of TeX's memory you used:
- 3424 strings out of 477993
- 55917 string characters out of 2837307
+ 3426 strings out of 477993
+ 56121 string characters out of 2837307
  365493 words of memory out of 3000000
  22189 multiletter control sequences out of 15000+600000
  470958 words of font info for 36 fonts, out of 8000000 for 9000

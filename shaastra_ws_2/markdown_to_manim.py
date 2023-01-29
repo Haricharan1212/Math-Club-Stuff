@@ -70,18 +70,26 @@ class {filename[:-3]}(Slide):
         self.play(*[FadeOut(mob)for mob in self.mobjects], run_time = 3)
         self.pause()
 
-        self.wait()
-        self.pause()
-
-        self.wait()
-        self.pause()
-
-        self.wait()
-        self.pause()
-
             '''
 
+
+    out += """
+        self.wait()
+        self.pause()
+
+        self.wait()
+        self.pause()
+
+        self.wait()
+        self.pause()
+
+"""
+
     with open (filename[:-3] + '.py', 'w') as f:
+
+
+
+
         f.write(out)
 
-markdown_to_manim("galois_theory_2.md")
+# markdown_to_manim("galois_theory.md")
