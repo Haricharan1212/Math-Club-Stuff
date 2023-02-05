@@ -1,4 +1,0 @@
-# This file is used internally by FFMPEG.
-file 'file:C:/Users/haric/OneDrive/Desktop/Files/Code/Manim/MathClub/shaastra_ws_2/media/videos/spare_code/480p15/partial_movie_files/stuff/4266129954_3665566658_223132457.mp4'
-file 'file:C:/Users/haric/OneDrive/Desktop/Files/Code/Manim/MathClub/shaastra_ws_2/media/videos/spare_code/480p15/partial_movie_files/stuff/1442284246_1291120976_237937342.mp4'
-file 'file:C:/Users/haric/OneDrive/Desktop/Files/Code/Manim/MathClub/shaastra_ws_2/media/videos/spare_code/480p15/partial_movie_files/stuff/1442284246_3134382145_1367017951.mp4'
